@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content.center {
+    height: 100vh;
+}
+
+.btn {
+    color: #FFF;
+    background-color: #dba636;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #dba636;
+    transition: all 150ms ease-in-out;
+}
+
+.btn:hover {
+    background: none;
+    color: #dba636;
+    transition: all 150ms ease-in-out;
+}
+
+.view-counter {
+    background-color: #e4e4e4;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
